@@ -1,0 +1,124 @@
+
+.container{
+    height: 582px;
+    width: 364px;
+    position: relative;
+    background: #17171C;
+    left: 569px;
+}
+
+.btn-container{
+    position: relative;
+    left: 10px;   
+}
+
+#display{
+    position: static;
+    width: 324px;
+    height: 96px;
+
+    background: #17171C;
+    color: #FFFFFF;
+    
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 96px;
+
+    /* display: flex; */
+    align-items: center;
+    text-align: right;
+
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0 0 20px;
+    padding: 21px 0 0;
+} 
+
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 324px;
+    height: 72px;
+    margin: 16px 0;
+}
+
+.operation,.numbers,.delete-btn,.zero,.equal,.clear-btn{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+
+    border-radius: 24px;
+
+}
+
+.operation,.equal,.divide{
+    flex: none;
+    flex-grow: 0;
+    margin: 0px 8px;
+
+}
+
+.numbers,.delete-btn,.zero,.clear-btn{
+    flex: none;
+    flex-grow: 1;
+    margin: 0px 8px;
+
+}
+
+.equal,.operation{
+    background: #4B5EFC;
+}
+
+.numbers,.delete-btn,.zero{
+    background: #2E2F38;
+}
+
+.operation{
+    position: static;
+    width: 70px;
+    height: 72px;
+    padding: 10px;
+} 
+
+.numbers,.delete-btn{
+    position: static;
+    width: 70px;
+    height: 72px;
+    padding: 10px;
+
+}
+
+.zero{
+    position: static;
+    width: 238.33px;
+    height: 72px;
+    padding: 10px;
+
+}
+
+.equal{
+    position: static;
+    width: 70.67px;
+    height: 72px;
+    padding: 10px;
+}
+
+.clear-btn{
+    position: static;
+    width: 153.33px;
+    height: 72px;
+    padding: 10px;
+
+    background: #4E505F;
+}
